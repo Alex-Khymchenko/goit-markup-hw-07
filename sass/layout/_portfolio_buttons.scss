@@ -1,0 +1,37 @@
+.buttons_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button_item + .button_item {
+    margin-left: 8px;
+}
+
+.portfolio_btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:--port-color;
+    background-color:var(--back-port-color);
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px 6px 22px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    
+    
+.portfolio_btn:hover, 
+.portfolio_btn:focus {
+    color:var(--port-btn-hover);
+    background-color:var(--port-btn-back);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

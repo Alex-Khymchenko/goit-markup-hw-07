@@ -1,3 +1,5 @@
+// Main page
+@import "./utils/vars";
 @import "./utils/hidden";
 @import "./components/container";
 @import "./base/common";
@@ -5,3 +7,19 @@
 
 @import "./layout/header";
 @import "./layout/main_section";
+@import "./base/button";
+@import "./layout/features";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
+@import "./components/modal";
+
+// Portfolio page
+@import "./layout/portfolio_buttons";
+@import "./layout/portfolio_grid";
+
+
+
+
