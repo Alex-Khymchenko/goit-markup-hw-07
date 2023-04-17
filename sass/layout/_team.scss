@@ -67,12 +67,11 @@
     justify-content: center;
     color: #AFB1B8;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team_socials_link:hover, 
-.team_socials_link:focus {
+    &:hover, 
+    &:focus {
     background-color: #2196F3;
     color: #ffffff
+    }
 }
 
 .team_socials_icon {

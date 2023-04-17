@@ -4,10 +4,12 @@
 @import "./components/container";
 @import "./base/common";
 @import "./base/reset";
+@import './utils/placeholders';
+@import './utils/mixins';
 
 @import "./layout/header";
 @import "./layout/main_section";
-@import "./base/button";
+@import "./layout/button";
 @import "./layout/features";
 @import "./layout/about";
 @import "./layout/team";
